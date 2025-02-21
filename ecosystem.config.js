@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: "hubspot-meditex", 
+        name: "hubspot-si-central", 
         script: "dist/main.js", 
         instances: "max", 
         exec_mode: "cluster", 
