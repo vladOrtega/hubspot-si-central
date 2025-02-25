@@ -13,13 +13,14 @@ export class CatalogoService {
     17: "Otro"
   };
   private catalogoECivil = {
-    1: "Single",
+    'soltera': "Single",
     'casado': "Married",
-    3: "Free union",
-    4: "Otro",
+    'unión libre': "Free union",
+    'otro': "Otro",
   };
   private catalogoPais = {   
     'Estados Unidos': "United States",
+    'Estados unidos': "United States",
   };
   private catalogoServicio = {
     1: "Programas de Fertilidad",
